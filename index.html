@@ -49,7 +49,7 @@
     <title>Ayush Gupta - Developer</title>
   </head>
   <body>
-    <nav class="margin-10 navbar navbar-expand-lg">
+    <nav id="nav" class="margin-10 navbar navbar-expand-lg">
       <a class="navbar-brand" href="#home">&lt;/&gt;</a>
       <button
         style="border: none"
@@ -73,7 +73,7 @@
         </div>
       </div>
       <div class="to-top">
-        <a href="#home">
+        <a href="#nav">
           <i class="fa-solid fa-angles-up"></i>
         </a>
       </div>
@@ -81,7 +81,7 @@
 
     <section class="home" id="home">
       <div class="content">
-        <h2 class="heading-secondary">Hello 😁 ,</h2>
+        <h2 class="heading-secondary">Hello <span class="wave">👋</span> ,</h2>
         <h2 class="heading-secondary">I am</h2>
         <h1 class="heading-primary">Ayush Gupta</h1>
       </div>
@@ -191,9 +191,9 @@
             </h6>
             <h6>Technologies Used :</h6>
             <p>HTML5 || CSS3 || Bootstrap || Javascript || MySQL</p>
-            <button>
+            <div class="btn">
               <a href="https://greenhorn.me" target="_blank">Visit</a>
-            </button>
+            </div>
           </div>
         </div>
         <!-- Codifiers -->
@@ -209,9 +209,9 @@
             </h6>
             <h6>Technologies Used :</h6>
             <p>HTML5 || CSS3 || Bootstrap</p>
-            <button>
+            <div class="btn">
               <a href="https://codifiers.in" target="_blank">Visit</a>
-            </button>
+            </div>
           </div>
         </div>
         <!-- Mysuru Tourism -->
@@ -223,17 +223,17 @@
             <h2>Mysuru Tourism</h2>
             <h6>
               This Website is created by the entire team of
-              <a
-                href="https://codifiers-in.github.io/Mysuru-Tourism/"
-                target="_blank"
-                >Codifiers</a
-              >
+              <a href="https://codifiers-in" target="_blank">Codifiers</a>
             </h6>
             <h6>Technologies Used :</h6>
             <p>HTML5 || CSS3 || Bootstrap</p>
-            <button>
-              <a href="https://codifiers.in" target="_blank">Visit</a>
-            </button>
+            <div class="btn">
+              <a
+                href="https://codifiers-in.github.io/Mysuru-Tourism/"
+                target="_blank"
+                >Visit</a
+              >
+            </div>
           </div>
         </div>
         <!-- TodoWebApp -->
@@ -246,13 +246,13 @@
             <h6>This To Do Web App supports CRUD operations .</h6>
             <h6>Technologies Used :</h6>
             <p>ReactJs || NodeJS || ExpressJs || MongoDB</p>
-            <button>
+            <div class="btn">
               <a
                 href="https://github.com/ayush-gupta-01/mern-todo"
                 target="_blank"
                 >Visit</a
               >
-            </button>
+            </div>
           </div>
         </div>
         <!-- Recipe App -->
@@ -265,13 +265,13 @@
             <h6>This Recipe App allows user to find Recipes.</h6>
             <h6>Technologies Used :</h6>
             <p>ReactJs || External Recipe API</p>
-            <button>
+            <div class="btn">
               <a
                 href="https://ayush-gupta-01.github.io/recipe-app/"
                 target="_blank"
                 >Visit</a
               >
-            </button>
+            </div>
           </div>
         </div>
       </div>
@@ -297,5 +297,7 @@
         </div>
       </div>
     </section>
+
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
